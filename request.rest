@@ -1,0 +1,22 @@
+GET http://localhost:5000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hhIiwiaWF0IjoxNjc0OTA5NzgzLCJleHAiOjE2NzQ5MDk3OTh9.yfZasuQBvyuz6ZGAbyKW9KkQZd6FDWtWMjES9Bzq5Yc
+
+###
+
+POST http://localhost:3000/token
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hhIiwiaWF0IjoxNjc0OTA5NzU5fQ.W-aoA5feQv9YfWdM0NxWfcgDD8tIs8_nfBmORE9AA-M"
+}
+
+
+
+###
+POST  http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username":"Harsha"
+}
+
